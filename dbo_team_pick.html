@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset='utf-8'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- IE Compatibility tag -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Index - Docs Bootstrap Template</title>
+    <link href="./_static/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <!-- Metadata -->
+    <meta name="description"
+          content="Dreadball Webapp Template Demo">
+    <meta name="keywords" content="Dreadball, demo, template">
+    <meta name="author" content="Bernardo Martínez Garrido">
+
+    <!-- Linking Metadata -->
+    <link rel="canonical" href="http://www.wandrell.com/dreadball-web-template/">
+
+    <!-- Facebook OpenGraph -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.wandrell.com/docs-bootstrap-template/"/>
+    <meta property="og:site" content="Dreadball Webapp Template"/>
+    <meta property="og:title" content="Index - Dreadball Webapp Template"/>
+    <meta property="og:description"
+          content="Check the demo for the Dreadball webapp template"/>
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@wandrell"/>
+    <meta name="twitter:title" content="Dreadball Webapp Template"/>
+    <meta name="twitter:description"
+          content="Check the demo for the Dreadball webapp template"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./_static/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./_static/lib/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./_static/lib/highlight/styles/default.css">
+    <!-- Docs Template style -->
+    <link rel="stylesheet" href="_static/css/style.css">
+
+    <!-- HTML5 Shiv. For IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="./_static/lib/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header class="header">
+    <nav id="navbar-main" class="navbar navbar-main navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-main-body"
+                        aria-expanded="false" aria-controls="navbar-main">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">Dreadball Webapp Template Demo</a>
+            </div>
+
+            <div id="navbar-main-body" class="navbar-body navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./dbo_team_pick.html">Dreadball</a></li>
+                    <li><a href="#">Dreadball Xtreme</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Listings
+                            <span class="chevron_toggleable fa fa-chevron-up"
+                                  aria-hidden="true"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Players</a></li>
+                            <li><a href="#">Teams</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="main-section" class="container-fluid">
+    <h1>DBO Team Builder</h1>
+    <section id="team_pick" class="form-well">
+        <div class="row">
+            <div class="col-md-12">Pick your team:
+                <select>
+                    <option value="volvo">Humans</option>
+                    <option value="saab">Orx/Goblins</option>
+                    <option value="mercedes">Veer-myn</option>
+                    <option value="audi">Forge Fathers</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div id="initial_players" class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12"><h2>Initial players:</h2></div>
+                </div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Position</th>
+                        <th>Move</th>
+                        <th>Strength</th>
+                        <th>Speed</th>
+                        <th>Skill</th>
+                        <th>Armor</th>
+                        <th>Notes</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>Guard</td>
+                        <td>5</td>
+                        <td>3+</td>
+                        <td>4+</td>
+                        <td>5+</td>
+                        <td>4+</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jack</td>
+                        <td>5</td>
+                        <td>5+</td>
+                        <td>3+</td>
+                        <td>4+</td>
+                        <td>4+</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="initial_assets" class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12"><h3>Initial assets:</h3></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-1">Dice: 1</div>
+                    <div class="col-md-12 col-md-offset-1">Cards: 1</div>
+                </div>
+            </div>
+        </div>
+        <div id="total" class="row">
+            <div class="col-md-3 pull-right"><strong>Total:</strong> 8 players and 100mc in valoration.</div>
+        </div>
+    </section>
+    <div id="pick_team" class="row">
+        <div class="col-md-12"><a class="btn btn-default pull-right" href="#" role="button">Pick this team</a></div>
+    </div>
+</section>
+<footer class="container-fluid">
+    <p><span class="fa fa-copyright"></span>2015 <a id="author-link"
+                                                    href="https://github.com/Bernardo-MG">Bernardo
+        Martínez Garrido</a> | Code released under the <a id="license-link"
+                                                          href="http://www.opensource.org/licenses/mit-license.php">MIT
+        License</a></p>
+    <p>v1.0.0 | Check the code at <a href="#" title="GitHub" aria-label="GitHub"><span
+            class="fa fa-github" aria-hidden="true"></span></a></p>
+    <p>Powered by <a href="http://www.w3schools.com/html/html5_intro.asp">HTML5</a> and <a
+            href="http://getbootstrap.com/">Bootstrap</a></p>
+</footer>
+<script src="./_static/lib/jquery/jquery-1.11.3.min.js"></script>
+<script src="./_static/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./_static/js/chevron-toggle.js"></script>
+<script src="./_static/js/smooth-scroll.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

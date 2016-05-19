@@ -1,0 +1,17 @@
+/*!
+ * Docs Boostrap Template navigation bar styles
+ * Copyright 2015 Bernardo Mart�nez Garrido
+ * Licensed under the MIT License (http://www.opensource.org/licenses/mit-license.php)
+ *
+ * This file contains styles for the navigation bar.
+ */
+.navbar {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+#sidebar {
+    width: 30%;
+}
