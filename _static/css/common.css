@@ -15,9 +15,13 @@ body {
     margin: 2em;
     border: 1px solid #e7e7e7;
     border-radius: 4px;
+    background-color: #fcfcfc;
 }
 
 #main-section {
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: white;
 }
