@@ -19,3 +19,7 @@ form .table > tbody > tr > td,
 form .table > tfoot > tr > td {
     padding: 1px;
 }
+
+.table-action {
+    cursor: pointer;
+}
