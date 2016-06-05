@@ -87,18 +87,136 @@
 </header>
 <section id="main-section" class="container-fluid">
     <header class="page-header">
-        <h1>Dreadball Webapp Template</h1>
+        <h1>DBX Players</h1>
     </header>
-    <p>A template demo to prepare an UI for a webapp offering several utilities for Dreadball.</p>
 
-    <section id="game_selection">
-        <div class="row">
-            <h2>Pick a game</h2>
-            <div class="btn-group" role="group" aria-label="Choose game">
-                <button type="button" onclick="location.href = './dbo_team_pick.html';" class="btn btn-default" id="dreadball">Dreadball</button>
-                <button type="button" onclick="location.href = './dbx_create_sponsor.html';" class="btn btn-default" id="dreadball_xtreme">Dreadball Xtreme</button>
-            </div>
-        </div>
+    <section id="players_list">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Team</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Move</th>
+                <th>Strength</th>
+                <th>Speed</th>
+                <th>Skill</th>
+                <th>Armor</th>
+                <th>Abilities</th>
+                <th>Groups</th>
+                <th>Cost stranger</th>
+                <th>Cost ally</th>
+                <th>Cost friend</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Humans</td>
+                <td>Trontek Guard</td>
+                <td>Guard</td>
+                <td>5</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td></td>
+                <td>Dreadball, Guard</td>
+                <td>15</td>
+                <td>10</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Humans</td>
+                <td>Trontek Jack</td>
+                <td>Jack</td>
+                <td>5</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td></td>
+                <td>Dreadball, Jack</td>
+                <td>12</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Humans</td>
+                <td>Trontek Striker</td>
+                <td>Striker</td>
+                <td>5</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td>5+</td>
+                <td></td>
+                <td>Dreadball, Striker</td>
+                <td>15</td>
+                <td>10</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Marauders</td>
+                <td>Marauder Guard</td>
+                <td>Guard</td>
+                <td>5</td>
+                <td>3+</td>
+                <td>4+</td>
+                <td>5+</td>
+                <td>4+</td>
+                <td></td>
+                <td>Guard, Psycho</td>
+                <td>20</td>
+                <td>13</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Marauders</td>
+                <td>Marauder Jack</td>
+                <td>Jack</td>
+                <td>5</td>
+                <td>5+</td>
+                <td>3+</td>
+                <td>4+</td>
+                <td>4+</td>
+                <td></td>
+                <td>Outcast, Worker</td>
+                <td>14</td>
+                <td>9</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Veer-myn</td>
+                <td>Veer-myn Guard</td>
+                <td>Guard</td>
+                <td>6</td>
+                <td>4+</td>
+                <td>3+</td>
+                <td>5+</td>
+                <td>4+</td>
+                <td></td>
+                <td>Outcast, Vicious</td>
+                <td>18</td>
+                <td>12</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Veer-myn</td>
+                <td>Veer-myn Striker</td>
+                <td>Striker</td>
+                <td>6</td>
+                <td>4+</td>
+                <td>3+</td>
+                <td>5+</td>
+                <td>5+</td>
+                <td></td>
+                <td>Outcast, Striker</td>
+                <td>17</td>
+                <td>11</td>
+                <td>8</td>
+            </tr>
+            </tbody>
+        </table>
     </section>
 </section>
 <footer class="container-fluid">
@@ -116,5 +234,6 @@
 <script src="./_static/lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="./_static/js/chevron-toggle.js"></script>
 <script src="./_static/js/smooth-scroll.js"></script>
+<script src="./_static/js/tooltip.js"></script>
 </body>
 </html>
